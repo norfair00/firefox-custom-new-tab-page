@@ -29,7 +29,10 @@
     "webRequest",
     "webRequestBlocking"
   ],
-  "chrome_url_overrides" : {
+  "chrome_settings_overrides": {
+    "homepage": "app.html"
+  },
+  "chrome_url_overrides": {
     "newtab": "app.html"
   },
   "background": {
